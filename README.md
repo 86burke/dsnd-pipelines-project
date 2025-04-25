@@ -12,8 +12,20 @@ Instructions for how to get a copy of the project running on your local machine.
 
 ### Dependencies
 
-```
-Examples here
+The following Python packages are required to run this project:
+
+- `scikit-learn`: For building machine learning pipelines and models.
+- `pandas`: For data manipulation and analysis.
+- `spacy`: For natural language processing (if needed for text data).
+- `notebook`: For running Jupyter Notebooks.
+- `seaborn`: For data visualization.
+- `matplotlib`: For plotting graphs.
+- `numpy`: For numerical computations.
+- `joblib`: For saving and loading trained models.
+
+Make sure to install these dependencies by running:
+```bash
+pip install -r requirements.txt
 ```
 
 ### Installation

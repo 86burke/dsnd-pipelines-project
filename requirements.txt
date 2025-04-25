@@ -2,3 +2,8 @@ scikit-learn
 pandas
 spacy
 notebook
+seaborn
+matplotlib
+numpy
+joblib
+streamlit
