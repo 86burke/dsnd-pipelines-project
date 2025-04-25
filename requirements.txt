@@ -5,6 +5,4 @@ notebook
 seaborn
 matplotlib
 numpy
-joblib
-streamlit
-dash
+wordcloud
