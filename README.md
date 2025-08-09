@@ -32,11 +32,10 @@ pip install -r requirements.txt
 
 Step by step explanation of how to get a dev environment running.
 
-List out the steps
-
-```
-Give an example here
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/dsnd-pipelines-project.git
+   ```
 
 ## Testing
 
@@ -56,12 +55,32 @@ This section should contain all the student deliverables for this project.
 
 ## Built With
 
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
+* [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/) - Programming language used for the project.
+* [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.1.3-orange)](https://scikit-learn.org/stable/) - For building machine learning pipelines and models.
+* [![pandas](https://img.shields.io/badge/pandas-1.3.3-blue)](https://pandas.pydata.org/) - For data manipulation and analysis.
+* [![spaCy](https://img.shields.io/badge/spaCy-3.4.0-green)](https://spacy.io/) - For natural language processing.
+* [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/) - For running and sharing notebooks.
+* [![Seaborn](https://img.shields.io/badge/Seaborn-0.11.2-blue)](https://seaborn.pydata.org/) - For data visualization.
+* [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-blue)](https://matplotlib.org/) - For plotting graphs.
+* [![NumPy](https://img.shields.io/badge/NumPy-1.21.2-blue)](https://numpy.org/) - For numerical computations.
+* [![Joblib](https://img.shields.io/badge/Joblib-1.1.0-green)](https://joblib.readthedocs.io/) - For saving and loading trained models.
 
 ## License
 
 [License](LICENSE.txt)
+
+# StyleSense Recommendation System
+
+## Project Overview
+This project builds a machine learning pipeline to predict whether a customer would recommend a product based on their review, age, and product details. The pipeline automates the process of analyzing reviews and provides valuable insights for StyleSense.
+
+## Features
+- Handles numerical, categorical, and text data.
+- Extracts advanced NLP features (POS tags and named entities).
+- Includes a Streamlit dashboard for data exploration and predictions.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/dsnd-pipelines-project.git
+   ```
